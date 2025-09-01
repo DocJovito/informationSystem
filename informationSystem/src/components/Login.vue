@@ -28,6 +28,7 @@ export default {
         login() {
             // Placeholder for login logic
             alert(`Username: ${this.username}\nPassword: ${this.password}`);
+            this.$router.push('/home'); // Navigate to Home after alert
         }
     }
 };
